@@ -1,23 +1,36 @@
 h1 {
-    color:#fff;
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-align: center;
 }
 div {
     display: block;
+    align-items: center;
 }
 .quick_links {
     width: 100%;
     height: 200px;
     border: 1px solid black;
+    align-items: center;
 }
 
-body {
+.body_wrapper {
     margin: 0;;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color:white;
     text-align: left;
-    background-color: #fff;
+    align-items: center;
+}
+
+.main_wrapper{
+    color: white;
+    background-color: #000;
+    align-items: center;
 }
 
 .main_footer {
@@ -25,6 +38,7 @@ body {
     margin-top: -292px;
     padding-top: 310px;
     background-color: #000;
+    align-items: center;
 }
 
 .footer_container {
@@ -41,7 +55,7 @@ body {
     flex-wrap: wrap;
     padding: 0 8px;
     margin-top: 20px !important;
-    background-color: #F8F8F8;
     position: relative;
     width: 100%;
 }
+
